@@ -1,5 +1,5 @@
 import { Header, Trigger } from "@radix-ui/react-accordion";
-import { styled } from "../stitches.config";
+import { styled } from "stitches";
 
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { forwardRef } from "react";
