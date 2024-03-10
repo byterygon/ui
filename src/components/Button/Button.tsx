@@ -3,7 +3,7 @@ import React from "react";
 import { css, styled } from "stitches";
 import { VariantProps } from "@stitches/react";
 
-const cssButton = css({
+export const cssButton = css({
   display: "inline-flex",
   justifyContent: "center",
   alignItems: "center",
@@ -99,7 +99,7 @@ const cssButton = css({
     size: "default",
   },
 });
-
+console.log(cssButton());
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: VariantProps<typeof cssButton>["variant"];
