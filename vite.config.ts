@@ -16,4 +16,9 @@ export default defineConfig({
       external: ["react", "react/jsx-runtime"],
     },
   },
+  resolve: {
+    alias: {
+      stitches: path.join(__dirname, "src", "stitches"),
+    },
+  },
 });
